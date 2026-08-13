@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Zenon — Feria Americana</title>
+<meta name="description" content="Catálogo de La Zenon, feria americana. Ropa, calzado, accesorios, deco y cerámica artesanal. Consultá por WhatsApp.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <span class="sparkle s1">✦</span>
+  <span class="sparkle s2">✦</span>
+  <span class="sparkle s3">✧</span>
+  <div class="hero-inner">
+    <h1 class="logo-word" id="feria-nombre">La Zenon</h1>
+    <p class="tagline" id="feria-tagline">Ropa y objetos con historia, a precio de feria</p>
+  </div>
+</header>
+
+<div class="info-bar">
+  <span>📍 <span id="feria-ubicacion">—</span></span>
+  <span>💬 Consultá y coordiná todo por WhatsApp</span>
+</div>
+
+<main class="controls">
+  <input class="search-input" id="search" type="search" placeholder="Buscar prenda, categoría...">
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</main>
+
+<section class="grid" id="grid" aria-live="polite">
+  <div class="empty-state">
+    <p class="logo-word">cargando…</p>
+  </div>
+</section>
+
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<footer>
+  La Zenon · Feria Americana — <a href="admin.html">admin</a>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
