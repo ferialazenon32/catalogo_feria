@@ -117,14 +117,17 @@ function cerrarSesion() {
 
 // ---------- generador de hash (ayuda para primera configuración) ----------
 
-async function generarHashAyuda() {
-  const pass = prompt("Escribí la contraseña que querés usar para el panel admin:");
+function toggleHashPanel() {
+  const panel = document.getElementById("hash-panel");
+  panel.style.display = panel.style.display === "none" ? "block" : "none";
+}
+
+async function generarHashDesdeInput() {
+  const pass = document.getElementById("hash-input").value;
   if (!pass) return;
   const hash = await sha256Hex(pass);
-  prompt(
-    "Copiá este hash y pegalo como adminPasswordHash en config.js. (Guardá la contraseña en un lugar seguro, no queda registrada acá.)",
-    hash
-  );
+  document.getElementById("hash-output").value = hash;
+  document.getElementById("hash-resultado").style.display = "block";
 }
 
 // ---------- lectura/escritura contra la API de GitHub ----------
@@ -382,7 +385,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("nuevo-btn").addEventListener("click", abrirFormNuevo);
   document.getElementById("producto-form").addEventListener("submit", guardarForm);
   document.getElementById("form-cancel").addEventListener("click", cerrarForm);
-  document.getElementById("hash-helper").addEventListener("click", generarHashAyuda);
+  document.getElementById("hash-helper").addEventListener("click", toggleHashPanel);
+  document.getElementById("hash-generar-btn").addEventListener("click", generarHashDesdeInput);
 
   const restante = segundosDeBloqueo();
   if (restante > 0) mostrarError(`Demasiados intentos. Probá de nuevo en ${restante}s.`);

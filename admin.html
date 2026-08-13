@@ -92,6 +92,18 @@
     <p class="help-note" style="margin-top:16px;">
       ¿Primera vez? <button type="button" class="link-btn" id="hash-helper">Generar el hash de una contraseña nueva</button>
     </p>
+
+    <div id="hash-panel" style="display:none; margin-top:16px; padding-top:16px; border-top:1px solid var(--linea);">
+      <label for="hash-input">Escribí la contraseña que querés usar</label>
+      <input type="text" id="hash-input" autocomplete="off" placeholder="Ej: perchero-azul-47">
+      <button type="button" class="btn-sm" id="hash-generar-btn" style="margin-top:10px; width:100%;">Generar hash</button>
+
+      <div id="hash-resultado" style="display:none; margin-top:14px;">
+        <label for="hash-output">Copiá este hash y pegalo en config.js como adminPasswordHash</label>
+        <input type="text" id="hash-output" readonly onclick="this.select()">
+        <p class="help-note">Tocá el campo y mantené presionado para copiar. Guardá también la contraseña en sí en un lugar seguro, la vas a necesitar para loguearte.</p>
+      </div>
+    </div>
   </div>
 </div>
 
