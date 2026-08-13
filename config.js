@@ -10,13 +10,13 @@ const CONFIG = {
   whatsappNumber: "5493811234567",
 
   // Datos de tu repo de GitHub donde vive products.json y las fotos.
-  githubOwner: "TU_USUARIO_DE_GITHUB",
-  githubRepo: "la-zenon-datos",
+  githubOwner: "ferialazenon32",
+  githubRepo: "catalogo_feria",
   githubBranch: "main",
 
   // Nombre y ubicación que se muestran en el cartel superior del catálogo.
-  feriaNombre: "La Zenon",
-  feriaUbicacion: "Tucumán",
+  feriaNombre: "Feria La Zenón",
+  feriaUbicacion: "San Miguel de Tucumán - Tucumán",
   feriaMensaje: "Ropa y objetos con historia, a precio de feria",
 
   // Hash SHA-256 de la contraseña del panel de administración.
