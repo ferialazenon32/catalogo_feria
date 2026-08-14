@@ -23,7 +23,7 @@ let busqueda = "";
 // a raw.githubusercontent.com para tráfico público.
 function urlDatos() {
   const { githubOwner, githubRepo, githubBranch } = CONFIG;
-  return `https://cdn.jsdelivr.net/gh/${githubOwner}/${githubRepo}@${githubBranch}/data/products.json`;
+  return `https://raw.githubusercontent.com/${githubOwner}/${githubRepo}/${githubBranch}/data/products.json?t=${Date.now()}`;
 }
 
 function urlImagen(pathRelativo) {
