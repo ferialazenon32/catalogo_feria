@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin — La Zenon</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .admin-wrap{max-width:760px; margin:0 auto; padding:24px 16px 80px;}
+  .login-card{
+    max-width:420px; margin:60px auto; background:#fff; border-radius:16px;
+    padding:28px 24px; box-shadow:var(--sombra); border:1px solid var(--celeste-1);
+  }
+  .login-card h1{font-family:'Caveat',cursive; color:var(--azul-tinta); font-size:2.4rem; margin:0 0 4px;}
+  .login-card p.sub{color:var(--tinta-suave); font-size:0.85rem; margin:0 0 20px;}
+  label{display:block; font-size:0.82rem; font-weight:600; margin:14px 0 6px; color:var(--azul-tinta-2);}
+  input[type=password], input[type=text], input[type=number], select, textarea{
+    width:100%; padding:10px 12px; border-radius:8px; border:1.5px solid var(--linea);
+    font-family:inherit; font-size:0.9rem; background:#fff;
+  }
+  textarea{min-height:80px; resize:vertical;}
+  .btn-primary{
+    width:100%; margin-top:18px; padding:12px; border:none; border-radius:8px;
+    background:var(--azul-tinta); color:#fff; font-weight:700; font-size:0.95rem; cursor:pointer;
+  }
+  .btn-primary:hover{background:var(--azul-tinta-2);}
+  .admin-err{color:#b3261e; font-size:0.85rem; margin-top:10px; display:none;}
+  .help-note{font-size:0.76rem; color:#8b7d5f; margin-top:6px; line-height:1.4;}
+  .help-note a{color:var(--azul-tinta);}
+  .link-btn{background:none; border:none; color:var(--azul-tinta); text-decoration:underline; cursor:pointer; font-size:0.78rem; padding:0;}
+
+  .admin-header{display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;}
+  .admin-header h1{font-family:'Caveat',cursive; color:var(--azul-tinta); font-size:2.2rem; margin:0;}
+  .admin-actions{display:flex; gap:8px;}
+  .btn-sm{padding:8px 14px; border-radius:8px; border:1.5px solid var(--celeste-1); background:#fff; cursor:pointer; font-weight:600; font-size:0.82rem;}
+  .btn-sm.primary{background:var(--mostaza); border-color:var(--mostaza); color:#3a2a08;}
+
+  .admin-row{
+    display:flex; align-items:center; gap:12px; background:#fff; border:1px solid #eee0c2;
+    border-radius:10px; padding:10px 12px; margin-bottom:8px;
+  }
+  .admin-row-oculto{opacity:0.55;}
+  .admin-thumb{width:52px; height:52px; border-radius:6px; object-fit:cover; background:var(--celeste-2); flex:0 0 auto;}
+  .admin-row-info{flex:1; display:flex; flex-direction:column; font-size:0.85rem;}
+  .admin-row-info span{color:#8b7d5f; font-size:0.76rem;}
+  .admin-tag-oculto{color:#b3261e !important; font-weight:700;}
+  .admin-row-actions{display:flex; gap:6px; flex-wrap:wrap;}
+  .admin-row-actions button{
+    border:none; background:var(--celeste-2); border-radius:6px; padding:6px 9px;
+    font-size:0.75rem; cursor:pointer; font-weight:600; color:var(--azul-tinta-2);
+  }
+  .admin-row-actions button.danger{background:#fbe1de; color:#b3261e;}
+  .admin-checkbox{width:20px; height:20px; flex:0 0 auto; accent-color:var(--azul-tinta); cursor:pointer;}
+
+  .bulk-bar{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    background:var(--celeste-2); border:1.5px solid var(--celeste-1); border-radius:10px;
+    padding:10px 14px; margin-bottom:12px; font-size:0.85rem; font-weight:600;
+    color:var(--azul-tinta-2); flex-wrap:wrap;
+  }
+  .bulk-bar-actions{display:flex; gap:6px; flex-wrap:wrap;}
+  .bulk-bar-actions .btn-sm{padding:7px 12px; font-size:0.78rem;}
+  .bulk-bar-actions .btn-sm.danger{background:#fbe1de; border-color:#f3c6c0; color:#b3261e;}
+  .select-all-row{display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:0.82rem; color:var(--tinta-suave);}
+
+  .form-modal{
+    position:fixed; inset:0; background:rgba(27,78,130,0.35); display:none;
+    align-items:center; justify-content:center; z-index:200; padding:16px;
+  }
+  .form-modal.open{display:flex;}
+  .form-card{
+    background:#fff; border-radius:16px; padding:22px 22px 26px; max-width:460px; width:100%;
+    max-height:90vh; overflow-y:auto;
+  }
+  .form-card h2{font-family:'Caveat',cursive; color:var(--azul-tinta); font-size:1.8rem; margin:0 0 10px;}
+  .form-row-actions{display:flex; gap:10px; margin-top:18px;}
+  .form-row-actions button{flex:1;}
+  .btn-cancel{background:#eee; color:#444; border:none; border-radius:8px; padding:12px; font-weight:600; cursor:pointer;}
+</style>
+</head>
+<body>
+
+<!-- ---------- Pantalla de login ---------- -->
+<div id="login-screen">
+  <div class="login-card">
+    <h1>La Zenon</h1>
+    <p class="sub">Panel de administración</p>
+    <form id="login-form">
+      <label for="login-pass">Contraseña</label>
+      <input type="password" id="login-pass" autocomplete="current-password" required>
+
+      <label for="login-token">Token de GitHub (fine-grained, permiso Contents: Read/Write sobre este repo)</label>
+      <input type="password" id="login-token" autocomplete="off" placeholder="github_pat_..." required>
+      <p class="help-note">
+        Se genera en <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>,
+        con acceso solo a este repositorio. No se guarda en ningún archivo: queda únicamente en la memoria de esta pestaña
+        y se borra al cerrarla.
+      </p>
+
+      <button type="submit" class="btn-primary">Entrar</button>
+      <p class="admin-err" id="admin-error"></p>
+    </form>
+    <p class="help-note" style="margin-top:16px;">
+      ¿Primera vez? <button type="button" class="link-btn" id="hash-helper">Generar el hash de una contraseña nueva</button>
+    </p>
+
+    <div id="hash-panel" style="display:none; margin-top:16px; padding-top:16px; border-top:1px solid var(--linea);">
+      <label for="hash-input">Escribí la contraseña que querés usar</label>
+      <input type="text" id="hash-input" autocomplete="off" placeholder="Ej: perchero-azul-47">
+      <button type="button" class="btn-sm" id="hash-generar-btn" style="margin-top:10px; width:100%;">Generar hash</button>
+
+      <div id="hash-resultado" style="display:none; margin-top:14px;">
+        <label for="hash-output">Copiá este hash y pegalo en config.js como adminPasswordHash</label>
+        <input type="text" id="hash-output" readonly onclick="this.select()">
+        <p class="help-note">Tocá el campo y mantené presionado para copiar. Guardá también la contraseña en sí en un lugar seguro, la vas a necesitar para loguearte.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ---------- Panel de administración ---------- -->
+<div id="admin-screen" style="display:none;">
+  <div class="admin-wrap">
+    <div class="admin-header">
+      <h1>Mis prendas</h1>
+      <div class="admin-actions">
+        <button class="btn-sm primary" id="nuevo-btn">+ Nueva</button>
+        <button class="btn-sm" id="logout-btn">Salir</button>
+      </div>
+    </div>
+    <label class="select-all-row">
+      <input type="checkbox" class="admin-checkbox" id="select-all-checkbox">
+      Seleccionar todas
+    </label>
+    <div id="bulk-bar" class="bulk-bar" style="display:none;">
+      <span id="bulk-count">0 seleccionadas</span>
+      <div class="bulk-bar-actions">
+        <button class="btn-sm" id="bulk-ocultar">Ocultar</button>
+        <button class="btn-sm" id="bulk-mostrar">Mostrar</button>
+        <button class="btn-sm danger" id="bulk-borrar">Borrar</button>
+        <button class="btn-sm" id="bulk-cancelar">Cancelar</button>
+      </div>
+    </div>
+    <div id="admin-list"></div>
+  </div>
+</div>
+
+<!-- ---------- Modal formulario ---------- -->
+<div class="form-modal" id="form-modal">
+  <div class="form-card">
+    <h2 id="form-titulo">Nueva prenda</h2>
+    <form id="producto-form">
+      <label for="f-nombre">Nombre</label>
+      <input type="text" id="f-nombre" required>
+
+      <label for="f-categoria">Categoría</label>
+      <select id="f-categoria">
+        <option value="infantil">Infantil</option>
+        <option value="mujer-verano">Mujer verano</option>
+        <option value="mujer-invierno">Mujer invierno</option>
+        <option value="hombre">Hombre</option>
+        <option value="accesorios">Accesorios</option>
+        <option value="calzado">Calzado</option>
+        <option value="deco-bazar">Deco / Bazar</option>
+        <option value="ceramica-artesanal">Cerámica artesanal outlet</option>
+      </select>
+
+      <label for="f-precio">Precio ($)</label>
+      <input type="number" id="f-precio" min="0" step="1" required>
+
+      <label for="f-talle">Talle (opcional)</label>
+      <input type="text" id="f-talle" placeholder="Ej: M, 38, 2 años">
+
+      <label for="f-estado">Estado</label>
+      <input type="text" id="f-estado" placeholder="Ej: Muy buen estado">
+
+      <label for="f-descripcion">Descripción</label>
+      <textarea id="f-descripcion"></textarea>
+
+      <label for="f-imagenes">Fotos (si editás, se agregan a las que ya tiene)</label>
+      <input type="file" id="f-imagenes" accept="image/*" multiple capture="environment">
+      <p class="help-note">Se comprimen automáticamente antes de subirse a GitHub.</p>
+
+      <div class="form-row-actions">
+        <button type="button" class="btn-cancel" id="form-cancel">Cancelar</button>
+        <button type="submit" class="btn-primary" id="form-submit" style="margin-top:0;">Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/admin.js"></script>
+</body>
+</html>
