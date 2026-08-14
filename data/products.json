@@ -14,20 +14,6 @@
     "creado": "2026-08-03T09:30:00.000Z"
   },
   {
-    "id": "p006",
-    "nombre": "Cinturón de cuero trenzado",
-    "categoria": "accesorios",
-    "precio": 3000,
-    "talle": "Único",
-    "estado": "Buen estado",
-    "descripcion": "Cinturón unisex, hebilla metálica.",
-    "imagenes": [
-      "images/p006-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-04T10:00:00.000Z"
-  },
-  {
     "id": "p007",
     "nombre": "Frutero de cerámica pintado a mano",
     "categoria": "ceramica-artesanal",
