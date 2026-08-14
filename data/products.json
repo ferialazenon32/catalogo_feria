@@ -1,17 +1,5 @@
 [
   {
-    "id": "p001",
-    "nombre": "Campera de jean oversize",
-    "categoria": "mujer-invierno",
-    "precio": 8500,
-    "talle": "M",
-    "estado": "Muy buen estado",
-    "descripcion": "Campera de jean clásica, forrada por dentro. Ideal para entretiempo.",
-    "imagenes": ["images/p001-1.jpg"],
-    "disponible": true,
-    "creado": "2026-08-01T12:00:00.000Z"
-  },
-  {
     "id": "p002",
     "nombre": "Vestido floreado liviano",
     "categoria": "mujer-verano",
@@ -19,7 +7,9 @@
     "talle": "S",
     "estado": "Como nuevo",
     "descripcion": "Vestido de tela fresca, estampa floral, tiritas ajustables.",
-    "imagenes": ["images/p002-1.jpg"],
+    "imagenes": [
+      "images/p002-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-02T12:00:00.000Z"
   },
@@ -31,7 +21,9 @@
     "talle": "2 años",
     "estado": "Buen estado",
     "descripcion": "Conjunto de algodón, poco uso.",
-    "imagenes": ["images/p003-1.jpg"],
+    "imagenes": [
+      "images/p003-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-02T14:00:00.000Z"
   },
@@ -43,7 +35,9 @@
     "talle": "L",
     "estado": "Buen estado",
     "descripcion": "Camisa de algodón manga larga, corte clásico.",
-    "imagenes": ["images/p004-1.jpg"],
+    "imagenes": [
+      "images/p004-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-03T09:00:00.000Z"
   },
@@ -55,7 +49,9 @@
     "talle": "38",
     "estado": "Muy buen estado",
     "descripcion": "Botas de cuero genuino, taco bajo, suela en buen estado.",
-    "imagenes": ["images/p005-1.jpg"],
+    "imagenes": [
+      "images/p005-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-03T09:30:00.000Z"
   },
@@ -67,7 +63,9 @@
     "talle": "Único",
     "estado": "Buen estado",
     "descripcion": "Cinturón unisex, hebilla metálica.",
-    "imagenes": ["images/p006-1.jpg"],
+    "imagenes": [
+      "images/p006-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-04T10:00:00.000Z"
   },
@@ -79,7 +77,9 @@
     "talle": "",
     "estado": "Nuevo - outlet",
     "descripcion": "Pieza de cerámica artesanal, pequeña imperfección de esmalte (por eso precio outlet).",
-    "imagenes": ["images/p007-1.jpg"],
+    "imagenes": [
+      "images/p007-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-05T11:00:00.000Z"
   },
@@ -91,7 +91,9 @@
     "talle": "",
     "estado": "Buen estado",
     "descripcion": "Espejo vintage restaurado, marco de madera maciza.",
-    "imagenes": ["images/p008-1.jpg"],
+    "imagenes": [
+      "images/p008-1.jpg"
+    ],
     "disponible": true,
     "creado": "2026-08-05T15:00:00.000Z"
   }
