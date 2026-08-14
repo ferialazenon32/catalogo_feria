@@ -1,19 +1,5 @@
 [
   {
-    "id": "p004",
-    "nombre": "Camisa a cuadros hombre",
-    "categoria": "hombre",
-    "precio": 5500,
-    "talle": "L",
-    "estado": "Buen estado",
-    "descripcion": "Camisa de algodón manga larga, corte clásico.",
-    "imagenes": [
-      "images/p004-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-03T09:00:00.000Z"
-  },
-  {
     "id": "p005",
     "nombre": "Botas de cuero cortas",
     "categoria": "calzado",
