@@ -26,5 +26,19 @@
     ],
     "disponible": true,
     "creado": "2026-08-05T15:00:00.000Z"
+  },
+  {
+    "id": "p1786739642686",
+    "nombre": "dfgh",
+    "categoria": "calzado",
+    "precio": 5,
+    "talle": "23",
+    "estado": "Buen estado",
+    "descripcion": "fhhhmvnvc",
+    "imagenes": [
+      "images/p1786739642686-1786739642686-0.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-14T20:34:04.590Z"
   }
 ]
