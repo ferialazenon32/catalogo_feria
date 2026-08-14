@@ -10,7 +10,7 @@ const CONFIG = {
   whatsappNumber: "5493811234567",
 
   // Datos de tu repo de GitHub donde vive products.json y las fotos.
-  githubOwner: "ferialazaenon32",
+  githubOwner: "ferialazenon32",
   githubRepo: "catalogo_feria",
   githubBranch: "main",
 
