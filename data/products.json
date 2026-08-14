@@ -26,19 +26,5 @@
     ],
     "disponible": true,
     "creado": "2026-08-05T15:00:00.000Z"
-  },
-  {
-    "id": "p1786738662733",
-    "nombre": "tyuty",
-    "categoria": "mujer-verano",
-    "precio": 45,
-    "talle": "m",
-    "estado": "Buen estado",
-    "descripcion": "try",
-    "imagenes": [
-      "images/p1786738662733-1786738662734-0.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-14T20:17:45.108Z"
   }
 ]
