@@ -34,10 +34,11 @@
     "precio": 12000,
     "talle": "12",
     "estado": "Buen estado",
-    "descripcion": "",
+    "descripcion": "asdasd",
     "imagenes": [
       "images/p1786721588532-1786721588532-0.jpeg",
-      "images/p1786721588532-1786721675101-0.jpeg"
+      "images/p1786721588532-1786721675101-0.jpeg",
+      "images/p1786721588532-1786721701226-0.jpeg"
     ],
     "disponible": true,
     "creado": "2026-08-14T15:33:09.878Z"
