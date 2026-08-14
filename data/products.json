@@ -1,19 +1,5 @@
 [
   {
-    "id": "p002",
-    "nombre": "Vestido floreado liviano",
-    "categoria": "mujer-verano",
-    "precio": 6000,
-    "talle": "S",
-    "estado": "Como nuevo",
-    "descripcion": "Vestido de tela fresca, estampa floral, tiritas ajustables.",
-    "imagenes": [
-      "images/p002-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-02T12:00:00.000Z"
-  },
-  {
     "id": "p003",
     "nombre": "Conjunto nene 2 años (remera + short)",
     "categoria": "infantil",
