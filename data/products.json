@@ -26,5 +26,19 @@
     ],
     "disponible": true,
     "creado": "2026-08-05T15:00:00.000Z"
+  },
+  {
+    "id": "p1786740394222",
+    "nombre": "uuyuyuyuy",
+    "categoria": "hombre",
+    "precio": 5,
+    "talle": "m",
+    "estado": "Buen estado",
+    "descripcion": "fgjh",
+    "imagenes": [
+      "images/p1786740394222-1786740394222-0.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-14T20:46:36.114Z"
   }
 ]
