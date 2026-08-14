@@ -10,13 +10,13 @@ const CONFIG = {
   whatsappNumber: "5493811234567",
 
   // Datos de tu repo de GitHub donde vive products.json y las fotos.
-  githubOwner: "TU_USUARIO_DE_GITHUB",
-  githubRepo: "la-zenon-datos",
+  githubOwner: "ferialazaenon32",
+  githubRepo: "catalogo_feria",
   githubBranch: "main",
 
   // Nombre y ubicación que se muestran en el cartel superior del catálogo.
-  feriaNombre: "La Zenon",
-  feriaUbicacion: "Tucumán",
+  feriaNombre: "Feria La Zenon",
+  feriaUbicacion: "San Miguel de Tucumán - Tucumán",
   feriaMensaje: "Ropa y objetos con historia, a precio de feria",
 
   // Hash SHA-256 de la contraseña del panel de administración.
@@ -26,5 +26,5 @@ const CONFIG = {
   // consola del navegador:
   //   crypto.subtle.digest('SHA-256', new TextEncoder().encode('tuClave'))
   //     .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
-  adminPasswordHash: "REEMPLAZAR_CON_TU_HASH",
+  adminPasswordHash: "6f81c9631b92802c55dc98c5f2dce660d3773ff466010b2d51e33f8f07e39482",
 };
