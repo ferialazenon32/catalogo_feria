@@ -1,19 +1,5 @@
 [
   {
-    "id": "p005",
-    "nombre": "Botas de cuero cortas",
-    "categoria": "calzado",
-    "precio": 12000,
-    "talle": "38",
-    "estado": "Muy buen estado",
-    "descripcion": "Botas de cuero genuino, taco bajo, suela en buen estado.",
-    "imagenes": [
-      "images/p005-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-03T09:30:00.000Z"
-  },
-  {
     "id": "p007",
     "nombre": "Frutero de cerámica pintado a mano",
     "categoria": "ceramica-artesanal",
