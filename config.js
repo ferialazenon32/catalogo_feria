@@ -26,5 +26,5 @@ const CONFIG = {
   // consola del navegador:
   //   crypto.subtle.digest('SHA-256', new TextEncoder().encode('tuClave'))
   //     .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
-  adminPasswordHash: "REEMPLAZAR_CON_TU_HASH",
+  adminPasswordHash: "6f81c9631b92802c55dc98c5f2dce660d3773ff466010b2d51e33f8f07e39482",
 };
