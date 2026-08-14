@@ -178,9 +178,10 @@ async function guardarProductsJson(mensaje) {
 
 function purgarCacheJsDelivr() {
   const { githubOwner, githubRepo, githubBranch } = CONFIG;
-  const url = `https://purge.jsdelivr.net/gh/${githubOwner}/${githubRepo}@${githubBranch}/data/products.json?_=${Date.now()}`;
-  // Se dispara como un "pixel" de imagen en vez de fetch: es más confiable en
-  // navegadores mobile, que a veces cancelan peticiones fetch en segundo plano.
+  const url = `https://purge.jsdelivr.net/gh/${githubOwner}/${githubRepo}@${githubBranch}/data/products.json`;
+  fetch(url).catch(() => {});
+  // Respaldo: además del fetch, un pixel de imagen (más difícil de bloquear
+  // por extensiones del navegador que el fetch solo).
   const beacon = new Image();
   beacon.src = url;
 }
