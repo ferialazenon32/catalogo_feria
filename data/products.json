@@ -26,5 +26,19 @@
     ],
     "disponible": true,
     "creado": "2026-08-05T15:00:00.000Z"
+  },
+  {
+    "id": "p1786721588532",
+    "nombre": "Media polera azul",
+    "categoria": "infantil",
+    "precio": 12000,
+    "talle": "12",
+    "estado": "Buen estado",
+    "descripcion": "",
+    "imagenes": [
+      "images/p1786721588532-1786721588532-0.jpeg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-14T15:33:09.878Z"
   }
 ]
