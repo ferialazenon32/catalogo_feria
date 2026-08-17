@@ -14,5 +14,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-14T20:46:36.114Z"
+  },
+  {
+    "id": "p1786985439713",
+    "nombre": "Chaleco tejido a rayas marrón y beige",
+    "categoria": "mujer-invierno",
+    "precio": 10000,
+    "talle": "s",
+    "estado": "Nuevo sin etiqueta",
+    "descripcion": "Chaleco tejido con rayas verticales en tonos marrón y beige que estilizan la silueta. Cuello redondo y corte clásico, ideal para superponer con camisas o prendas de manga larga. Una pieza atemporal para cualquier guardarropa.",
+    "imagenes": [
+      "images/p1786985439713-1786985439713-0.png",
+      "images/p1786985439713-1786985442541-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T16:50:44.574Z"
   }
 ]
