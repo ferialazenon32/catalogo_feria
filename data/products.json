@@ -89,5 +89,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-17T16:57:30.811Z"
+  },
+  {
+    "id": "p1786986016413",
+    "nombre": "Polera bordó",
+    "categoria": "mujer-invierno",
+    "precio": 3000,
+    "talle": "UNICO",
+    "estado": "USADO",
+    "descripcion": "Polera de manga larga en color bordó con cuello alto. Diseño básico y versátil, ideal para usar sola o como primera capa durante los días fríos. Una prenda imprescindible para el invierno.",
+    "imagenes": [
+      "images/p1786986016413-1786986016413-0.png",
+      "images/p1786986016413-1786986019177-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T17:00:20.604Z"
   }
 ]
