@@ -14,21 +14,5 @@
     ],
     "disponible": true,
     "creado": "2026-08-14T20:46:36.114Z"
-  },
-  {
-    "id": "p1786740760396",
-    "nombre": "fr",
-    "categoria": "infantil",
-    "precio": 3,
-    "talle": "s",
-    "estado": "Buen estado",
-    "descripcion": "fdf",
-    "imagenes": [
-      "images/p1786740760396-1786740760396-0.jpg",
-      "images/p1786740760396-1786740762933-1.jpg",
-      "images/p1786740760396-1786740764739-2.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-14T20:52:46.642Z"
   }
 ]
