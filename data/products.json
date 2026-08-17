@@ -1,33 +1,5 @@
 [
   {
-    "id": "p007",
-    "nombre": "Frutero de cerámica pintado a mano",
-    "categoria": "ceramica-artesanal",
-    "precio": 9000,
-    "talle": "",
-    "estado": "Nuevo - outlet",
-    "descripcion": "Pieza de cerámica artesanal, pequeña imperfección de esmalte (por eso precio outlet).",
-    "imagenes": [
-      "images/p007-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-05T11:00:00.000Z"
-  },
-  {
-    "id": "p008",
-    "nombre": "Espejo de pie con marco de madera",
-    "categoria": "deco-bazar",
-    "precio": 15000,
-    "talle": "",
-    "estado": "Buen estado",
-    "descripcion": "Espejo vintage restaurado, marco de madera maciza.",
-    "imagenes": [
-      "images/p008-1.jpg"
-    ],
-    "disponible": true,
-    "creado": "2026-08-05T15:00:00.000Z"
-  },
-  {
     "id": "p1786740394222",
     "nombre": "uuyuyuyuy",
     "categoria": "hombre",
