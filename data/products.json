@@ -134,5 +134,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-17T23:01:22.572Z"
+  },
+  {
+    "id": "p1787007953876",
+    "nombre": "3_4",
+    "categoria": "infantil",
+    "precio": 7995,
+    "talle": "",
+    "estado": "Buen estado",
+    "descripcion": "",
+    "imagenes": [
+      "images/p1787007953876-1787007953876-0.png",
+      "images/p1787007953876-1787007955861-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T23:05:57.780Z"
   }
 ]
