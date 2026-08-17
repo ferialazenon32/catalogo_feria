@@ -74,5 +74,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-17T16:55:52.400Z"
+  },
+  {
+    "id": "p1786985846415",
+    "nombre": "Sweater tejido violeta",
+    "categoria": "mujer-invierno",
+    "precio": 7000,
+    "talle": "S",
+    "estado": "USADO",
+    "descripcion": "Sweater tejido en color lila de diseño liso y cuello redondo. Su estilo minimalista permite combinarlo fácilmente con diferentes prendas y accesorios. Ideal para quienes buscan comodidad y un toque de color.",
+    "imagenes": [
+      "images/p1786985846415-1786985846415-0.png",
+      "images/p1786985846415-1786985848821-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T16:57:30.811Z"
   }
 ]
