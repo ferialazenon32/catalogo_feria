@@ -104,5 +104,48 @@
     ],
     "disponible": true,
     "creado": "2026-08-17T17:00:20.604Z"
+  },
+  {
+    "id": "p1786986748598",
+    "nombre": "Sweater rayado multicolor",
+    "categoria": "mujer-invierno",
+    "precio": 8000,
+    "talle": "M",
+    "estado": "USADO",
+    "descripcion": "Sweater de tejido con base roja y rayas horizontales en tonos amarillo, blanco y azul. Cuello redondo y diseño llamativo que aporta personalidad a cualquier conjunto. Ideal para quienes buscan un estilo alegre y moderno.",
+    "imagenes": [
+      "images/p1786986748598-1786986748598-0.png",
+      "images/p1786986748598-1786986750492-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T17:12:32.571Z"
+  },
+  {
+    "id": "p1786987065891",
+    "nombre": "Sweater rayado multicolor",
+    "categoria": "mujer-invierno",
+    "precio": 8000,
+    "talle": "M",
+    "estado": "USADO",
+    "descripcion": "Sweater de tejido con base roja y rayas horizontales en tonos amarillo, blanco y azul. Cuello redondo y diseño llamativo que aporta personalidad a cualquier conjunto. Ideal para quienes buscan un estilo alegre y moderno.",
+    "imagenes": [
+      "images/p1786987065891-1786987065891-0.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T17:17:48.542Z"
+  },
+  {
+    "id": "p1786987087455",
+    "nombre": "Sweater rayado multicolor",
+    "categoria": "mujer-invierno",
+    "precio": 8000,
+    "talle": "M",
+    "estado": "USADO",
+    "descripcion": "Sweater de tejido con base roja y rayas horizontales en tonos amarillo, blanco y azul. Cuello redondo y diseño llamativo que aporta personalidad a cualquier conjunto. Ideal para quienes buscan un estilo alegre y moderno.",
+    "imagenes": [
+      "images/p1786987087455-1786987087455-0.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-17T17:18:09.725Z"
   }
 ]
