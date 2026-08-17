@@ -1,14 +1,16 @@
 [
   {
     "id": "p1786740394222",
-    "nombre": "uuyuyuyuy",
-    "categoria": "hombre",
-    "precio": 5,
-    "talle": "m",
+    "nombre": "Sweater tejido rojo y gris",
+    "categoria": "mujer-invierno",
+    "precio": 7000,
+    "talle": "M",
     "estado": "Buen estado",
-    "descripcion": "fgjh",
+    "descripcion": "Sweater tejido a mano, combinado con diseño de trenzas en el frente y mangas lisas en color rojo. Cuello redondo y puños ajustados. Una prenda abrigada y versátil, ideal para los días frescos y para sumar un toque de color al look.",
     "imagenes": [
-      "images/p1786740394222-1786740394222-0.jpg"
+      "images/p1786740394222-1786740394222-0.jpg",
+      "images/p1786740394222-1786985284754-0.png",
+      "images/p1786740394222-1786985287106-1.png"
     ],
     "disponible": true,
     "creado": "2026-08-14T20:46:36.114Z"
