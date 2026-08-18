@@ -149,5 +149,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-17T23:05:57.780Z"
+  },
+  {
+    "id": "p1787095118622",
+    "nombre": "Cárdigan rosa claro",
+    "categoria": "mujer-invierno",
+    "precio": 10000,
+    "talle": "L",
+    "estado": "COMO NUEVO",
+    "descripcion": "Cárdigan tejido de color rosa claro con escote en V y cierre frontal con botones. Diseño liviano y elegante, ideal para usar sobre remeras, camisas o vestidos. Una prenda versátil que se adapta a diferentes ocasiones.",
+    "imagenes": [
+      "images/p1787095118622-1787095118622-0.png",
+      "images/p1787095118622-1787095120551-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-18T23:18:42.139Z"
   }
 ]
