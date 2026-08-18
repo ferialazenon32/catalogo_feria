@@ -194,5 +194,21 @@
     ],
     "disponible": true,
     "creado": "2026-08-18T23:37:16.755Z"
+  },
+  {
+    "id": "p1787096455288",
+    "nombre": "Remera manga larga bordo",
+    "categoria": "mujer-invierno",
+    "precio": 2000,
+    "talle": "XXL",
+    "estado": "USADO",
+    "descripcion": "Remera de manga larga en color bordo, con escote redondo y diseño liso. Su estilo simple y versátil permite combinarla fácilmente con jeans, pantalones o faldas. Una opción práctica para incorporar color a cualquier outfit.",
+    "imagenes": [
+      "images/p1787096455288-1787096455288-0.jpg",
+      "images/p1787096455288-1787096457257-1.jpg",
+      "images/p1787096455288-1787096458903-2.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-18T23:41:00.574Z"
   }
 ]
