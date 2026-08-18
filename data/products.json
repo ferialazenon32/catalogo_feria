@@ -210,5 +210,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-18T23:41:00.574Z"
+  },
+  {
+    "id": "p1787096558001",
+    "nombre": "Buzo azul con cierre",
+    "categoria": "mujer-invierno",
+    "precio": 6000,
+    "talle": "L",
+    "estado": "USADO",
+    "descripcion": "Buzo de manga larga en color azul con cuello alto y cierre frontal corto. Presenta un diseño estampado en la parte delantera y un calce cómodo. Ideal para looks casuales y para acompañar actividades cotidianas durante los días frescos.",
+    "imagenes": [
+      "images/p1787096558001-1787096558001-0.jpg",
+      "images/p1787096558001-1787096559911-1.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-18T23:42:41.845Z"
   }
 ]
