@@ -164,5 +164,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-18T23:18:42.139Z"
+  },
+  {
+    "id": "p1787095172075",
+    "nombre": "Chaleco tejido blanco",
+    "categoria": "mujer-invierno",
+    "precio": 4000,
+    "talle": "S",
+    "estado": "Buen estado",
+    "descripcion": "Chaleco tejido en color blanco con delicado relieve de pequeños rombos en toda la prenda. Cuello redondo y terminaciones acanaladas que brindan un acabado prolijo. Ideal para combinar con camisas, poleras o remeras de manga larga y crear looks clásicos y elegantes.",
+    "imagenes": [
+      "images/p1787095172075-1787095172075-0.png",
+      "images/p1787095172075-1787095174092-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-18T23:19:35.721Z"
   }
 ]
