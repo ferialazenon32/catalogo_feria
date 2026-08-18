@@ -179,5 +179,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-18T23:19:35.721Z"
+  },
+  {
+    "id": "p1787096233232",
+    "nombre": "Chaleco tejido rosa con botones",
+    "categoria": "mujer-invierno",
+    "precio": 6000,
+    "talle": "M/L",
+    "estado": "USADO COMO NUEVO",
+    "descripcion": "Chaleco tejido en color rosa con delicados detalles calados en el frente y cierre frontal con botones. Escote en V y diseño clásico que permite usarlo abierto o cerrado. Perfecto para completar looks románticos y casuales.",
+    "imagenes": [
+      "images/p1787096233232-1787096233232-0.png",
+      "images/p1787096233232-1787096235113-1.png"
+    ],
+    "disponible": true,
+    "creado": "2026-08-18T23:37:16.755Z"
   }
 ]
