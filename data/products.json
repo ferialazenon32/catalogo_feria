@@ -240,5 +240,21 @@
     ],
     "disponible": true,
     "creado": "2026-08-19T01:15:07.889Z"
+  },
+  {
+    "id": "p1787102269233",
+    "nombre": "Camisa beige clásica",
+    "categoria": "mujer-invierno",
+    "precio": 4000,
+    "talle": "L",
+    "estado": "Buen estado",
+    "descripcion": "Camisa de manga larga en color beige claro, con cuello clásico y cierre frontal con botones. Su diseño sencillo y atemporal la convierte en una prenda muy versátil, ideal para combinar con pantalones, jeans o faldas.",
+    "imagenes": [
+      "images/p1787102269233-1787102269233-0.jpg",
+      "images/p1787102269233-1787102270710-1.jpg",
+      "images/p1787102269233-1787102272132-2.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-19T01:17:53.777Z"
   }
 ]
