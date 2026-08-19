@@ -224,5 +224,21 @@
     ],
     "disponible": true,
     "creado": "2026-08-18T23:42:41.845Z"
+  },
+  {
+    "id": "p1787102103038",
+    "nombre": "Camisa patchwork multicolor",
+    "categoria": "mujer-invierno",
+    "precio": 3000,
+    "talle": "S",
+    "estado": "USADO",
+    "descripcion": "Camisa de manga larga con diseño patchwork que combina diferentes estampados y texturas en tonos amarillo, beige, celeste y blanco. Cuenta con cuello clásico, cierre frontal con botones y bolsillos delanteros. Una prenda original y llamativa, ideal para darle personalidad a looks casuales.",
+    "imagenes": [
+      "images/p1787102103038-1787102103038-0.jpg",
+      "images/p1787102103038-1787102104589-1.jpg",
+      "images/p1787102103038-1787102106202-2.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-19T01:15:07.889Z"
   }
 ]
