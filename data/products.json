@@ -272,5 +272,21 @@
     ],
     "disponible": true,
     "creado": "2026-08-22T17:18:47.944Z"
+  },
+  {
+    "id": "p1787419519330",
+    "nombre": "Camisa rosa fucsia",
+    "categoria": "mujer-invierno",
+    "precio": 3000,
+    "talle": "M/L",
+    "estado": "USADO COMO NUEVO",
+    "descripcion": "Camisa de manga larga en color rosa fucsia, con cuello clásico y cierre frontal con botones. Cuenta con puños abotonados y un diseño liviano de caída fluida. Ideal para looks tanto casuales como más arreglados.",
+    "imagenes": [
+      "images/p1787419519330-1787419519330-0.jpg",
+      "images/p1787419519330-1787419521288-1.jpg",
+      "images/p1787419519330-1787419522752-2.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-22T17:25:24.269Z"
   }
 ]
