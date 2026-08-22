@@ -303,5 +303,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-22T17:32:57.543Z"
+  },
+  {
+    "id": "p1787420050542",
+    "nombre": "Campera negra",
+    "categoria": "mujer-invierno",
+    "precio": 12000,
+    "talle": "S/M",
+    "estado": "Buen estado",
+    "descripcion": "Campera  negra. Presenta una silueta ligeramente entallada y terminaciones que aportan un aspecto prolijo. Una opción versátil para completar looks urbanos y casuales.",
+    "imagenes": [
+      "images/p1787420050542-1787420050542-0.jpg",
+      "images/p1787420050542-1787420052056-1.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-22T17:34:13.379Z"
   }
 ]
