@@ -256,5 +256,21 @@
     ],
     "disponible": true,
     "creado": "2026-08-19T01:17:53.777Z"
+  },
+  {
+    "id": "p1787419123074",
+    "nombre": "Falda midi a cuadros",
+    "categoria": "mujer-invierno",
+    "precio": 4000,
+    "talle": "S",
+    "estado": "USADO",
+    "descripcion": "Falda de largo midi con estampado a cuadros en tonos verde oscuro, blanco y gris. Presenta un diseño de caída amplia hacia el ruedo que aporta movimiento y comodidad. Una prenda clásica que puede combinarse con sweaters, camisas o remeras.",
+    "imagenes": [
+      "images/p1787419123074-1787419123074-0.jpg",
+      "images/p1787419123074-1787419124838-1.jpg",
+      "images/p1787419123074-1787419126392-2.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-22T17:18:47.944Z"
   }
 ]
