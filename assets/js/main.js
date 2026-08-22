@@ -169,6 +169,15 @@ function abrirModal(id) {
   document.body.style.overflow = "hidden";
 }
 
+function abrirProductoDesdeHash() {
+  const hash = window.location.hash;
+
+  if (!hash.startsWith("#producto=")) return;
+
+  const id = decodeURIComponent(hash.replace("#producto=", ""));
+  abrirModal(id);
+}
+
 function cerrarModal() {
   document.getElementById("modal-backdrop").classList.remove("open");
   document.body.style.overflow = "";
