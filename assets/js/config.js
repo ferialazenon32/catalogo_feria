@@ -7,7 +7,7 @@
 const CONFIG = {
   // Tu número de WhatsApp con código de país, SIN + ni espacios ni guiones.
   // Ejemplo Argentina Tucumán: 54 9 381 1234567  ->  "5493811234567"
-  whatsappNumber: "5493811234567",
+  whatsappNumber: "5493813201190",
 
   // Datos de tu repo de GitHub donde vive products.json y las fotos.
   githubOwner: "ferialazenon32",
