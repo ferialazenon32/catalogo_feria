@@ -288,5 +288,20 @@
     ],
     "disponible": true,
     "creado": "2026-08-22T17:25:24.269Z"
+  },
+  {
+    "id": "p1787419974662",
+    "nombre": "Polera azul",
+    "categoria": "mujer-invierno",
+    "precio": 2000,
+    "talle": "XL",
+    "estado": "USADO",
+    "descripcion": "Polera de manga larga en color azul intenso, con cuello alto y diseño completamente liso. Una prenda básica y fácil de combinar, ideal para usar sola o como primera capa debajo de sweaters, camperas o chalecos.",
+    "imagenes": [
+      "images/p1787419974662-1787419974662-0.jpg",
+      "images/p1787419974662-1787419976133-1.jpg"
+    ],
+    "disponible": true,
+    "creado": "2026-08-22T17:32:57.543Z"
   }
 ]
