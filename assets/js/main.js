@@ -60,11 +60,12 @@ async function cargarProductos() {
     TODOS_LOS_PRODUCTOS = data.filter((p) => p.disponible !== false);
     TODOS_LOS_PRODUCTOS.sort((a, b) => (b.creado || "").localeCompare(a.creado || ""));
     render();
+    abrirProductoDesdeHash();
   } catch (err) {
     grid.innerHTML = `
       <div class="empty-state">
         <p class="logo-word">uy...</p>
-        <p>No pudimos cargar el catálogo todavía.<br>Si sos la admin: revisá que <code>config.js</code> tenga bien el usuario/repo de GitHub y que el repo sea público.</p>
+        <p>No pudimos  el catálogo todavía.<br>Si sos la admin: revisá que <code>config.js</code> tenga bien el usuario/repo de GitHub y que el repo sea público.</p>
       </div>`;
     console.error(err);
   }
@@ -181,6 +182,10 @@ function abrirProductoDesdeHash() {
 function cerrarModal() {
   document.getElementById("modal-backdrop").classList.remove("open");
   document.body.style.overflow = "";
+
+  if (window.location.hash.startsWith("#producto=")) {
+    history.replaceState(null, "", window.location.pathname + window.location.search);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
