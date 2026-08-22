@@ -35,8 +35,19 @@ function formatoPrecio(n) {
   return "$ " + Number(n).toLocaleString("es-AR");
 }
 
+function linkProducto(producto) {
+  const base = `${window.location.origin}${window.location.pathname}`;
+  return `${base}#producto=${encodeURIComponent(producto.id)}`;
+}
+
 function linkWhatsapp(producto) {
-  const msg = `Hola! Te escribo por "${producto.nombre}" (${formatoPrecio(producto.precio)}) que vi en el catálogo de La Zenon 💙`;
+  const enlace = linkProducto(producto);
+
+  const msg = `Hola! Te escribo por "${producto.nombre}" (${formatoPrecio(producto.precio)}) que vi en el catálogo de La Zenon 💙
+
+Ver producto:
+${enlace}`;
+
   return `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(msg)}`;
 }
 
